@@ -13,6 +13,7 @@ function shell({ p, title, desc, h1, jsonld }) {
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="ERZzSrlvSgo_T9ml-d8hRlUU628NSodwmMHeeuLO2w4" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#6366f1" />
   <title>${esc(title)}</title>
