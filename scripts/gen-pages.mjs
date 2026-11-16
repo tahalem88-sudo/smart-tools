@@ -26,6 +26,8 @@ function shell({ p, title, desc, h1, jsonld }) {
   <meta property="og:description" content="${esc(desc)}" />
   ${url ? `<meta property="og:url" content="${url}" />` : ''}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />

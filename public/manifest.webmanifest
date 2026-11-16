@@ -1,0 +1,21 @@
+{
+  "name": "Smart Tools - أدوات مجانية",
+  "short_name": "Smart Tools",
+  "description": "أدوات رقمية مجانية تعمل داخل متصفحك: ضغط الصور، دمج PDF، QR Code وأكثر.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0d1c",
+  "theme_color": "#6366f1",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "ضغط الصور", "url": "/compress/" },
+    { "name": "دمج PDF", "url": "/pdfmerge/" },
+    { "name": "QR Code", "url": "/qr/" }
+  ]
+}
