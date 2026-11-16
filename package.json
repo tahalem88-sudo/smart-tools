@@ -1,0 +1,20 @@
+{
+  "name": "smart-tools",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "gen": "node scripts/gen-pages.mjs",
+    "dev": "node scripts/gen-pages.mjs && vite --host",
+    "build": "node scripts/gen-pages.mjs && vite build && node scripts/postbuild.mjs",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "jsbarcode": "^3.12.3",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
